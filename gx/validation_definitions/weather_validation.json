@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "9235320a-2cc1-42d7-bb35-58eb1ecd017b",
+      "name": "weather_data"
+    },
+    "batch_definition": {
+      "id": "ee428ecb-633a-44f2-bfe7-c2ba979f29a1",
+      "name": "weather_batch"
+    },
+    "datasource": {
+      "id": "f07695af-ee89-4346-a7d0-3149129bef5a",
+      "name": "weather_pandas_source"
+    }
+  },
+  "id": "bac06816-e586-42e3-b5ee-e64def246033",
+  "name": "weather_validation",
+  "suite": {
+    "id": "4c33363b-6f70-42b5-aa18-87017294b68e",
+    "name": "weather_quality_suite"
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "expectations": [
+    {
+      "id": "120e60d4-8ebd-4d5e-acaf-89429b836bfc",
+      "kwargs": {
+        "column_set": [
+          "date",
+          "temperature_mean",
+          "temperature_max",
+          "temperature_min",
+          "city",
+          "country",
+          "latitude",
+          "longitude",
+          "temperature_range",
+          "year",
+          "month",
+          "day"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_table_columns_to_match_set"
+    },
+    {
+      "id": "25279bb9-a965-49a5-937f-a8c6ca8c6ee4",
+      "kwargs": {
+        "column": "date"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "535096d6-125b-4c54-84f8-5f98ce92ec2f",
+      "kwargs": {
+        "column": "temperature_mean"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "32c45b7b-649c-4091-97da-31a2205c153a",
+      "kwargs": {
+        "column": "temperature_max"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "667b5680-feb2-4d83-8668-49b6cddc47c1",
+      "kwargs": {
+        "column": "temperature_min"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "a402b7b0-6439-4ebb-af29-6a96d46bc25e",
+      "kwargs": {
+        "column": "city"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "806655a6-3022-4088-8c77-2d43b6c76be4",
+      "kwargs": {
+        "column": "country"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "119f5902-0787-42bd-9370-a67c5aa1bf77",
+      "kwargs": {
+        "column": "latitude"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "34da9716-f447-484a-8b29-dac2c59e5ccd",
+      "kwargs": {
+        "column": "longitude"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "e9054a87-eaaa-44a3-ae37-4ebf4846bd37",
+      "kwargs": {
+        "column": "temperature_range"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "0f451ab5-20af-4f69-9183-86275fb3b7e6",
+      "kwargs": {
+        "column": "year"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "508cb1c7-e69e-498c-9d80-89eff3cc75d3",
+      "kwargs": {
+        "column": "month"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "639f51d9-e7ec-48ea-96a0-3c2abfa832ed",
+      "kwargs": {
+        "column": "day"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "46bd4832-1b5e-4f7f-a097-011a7d0a2315",
+      "kwargs": {
+        "column": "latitude",
+        "max_value": 90.0,
+        "min_value": -90.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "f2c43bf5-eb91-4b39-ac6a-2e11349f9afb",
+      "kwargs": {
+        "column": "longitude",
+        "max_value": 180.0,
+        "min_value": -180.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "071635da-0127-429d-a0a9-2be748341af5",
+      "kwargs": {
+        "column": "temperature_mean",
+        "max_value": 60.0,
+        "min_value": -50.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "83e0df3a-6442-4b11-9d5b-891b1f34f20b",
+      "kwargs": {
+        "column": "temperature_max",
+        "max_value": 60.0,
+        "min_value": -50.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "7d2a1f64-fb58-4696-b2f3-cfb650771527",
+      "kwargs": {
+        "column": "temperature_min",
+        "max_value": 60.0,
+        "min_value": -50.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "da233382-85de-45d7-8faa-fb139ff39c1c",
+      "kwargs": {
+        "column": "city",
+        "value_set": [
+          "Yaounde",
+          "Douala",
+          "Lagos",
+          "Nairobi",
+          "Dakar"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "5d6c14d8-8354-4c44-8eee-2d08bb8aebf5",
+      "kwargs": {
+        "column_list": [
+          "city",
+          "date"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_compound_columns_to_be_unique"
+    },
+    {
+      "id": "284349c2-dbe2-49a9-b55a-5adc2897639c",
+      "kwargs": {
+        "max_value": 100000,
+        "min_value": 1
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_table_row_count_to_be_between"
+    }
+  ],
+  "id": "4c33363b-6f70-42b5-aa18-87017294b68e",
+  "meta": {
+    "great_expectations_version": "1.23.1"
+  },
+  "name": "weather_quality_suite",
+  "notes": null
+}
