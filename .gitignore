@@ -1,0 +1,15 @@
+# Environnements virtuels Python
+venv/
+.venv/
+env/
+
+# Fichiers cache et configuration
+__pycache__/
+*.pyc
+.env
+
+# Dossiers de données locales
+data/raw/
+data/processed/
+*.csv
+venv/
